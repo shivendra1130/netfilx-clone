@@ -6,6 +6,7 @@
 body{
   background-color: black;
   color: white;
+  overflow-x: hidden;
 }
 header{
 background-image: url(assets/bg.jpg);
@@ -120,16 +121,13 @@ font-family: sans-serif;
 }
 
 .tcontainer{
-
-
-  max-width: 700px;
+  max-width: 85vw;
   height: 500px;
   width: 100%;
-margin-top: 30px ;
-margin-right: 12vw;
-margin-left: 10vw;
-margin-bottom: 100px;
-
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: 10vw;
+  margin-bottom: 100px;
 }
 
 .title{
@@ -140,11 +138,12 @@ font-weight: 500;
 margin-bottom: 30px;
 }
 .slider{
-display: flex;
-gap: 30px;
-overflow-x:auto; 
-scroll-snap-type: x mandatory;
-scrollbar-width: none; 
+  display: flex;
+  gap: 15px;
+  overflow-x: auto; 
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  padding-bottom: 10px;
 }
 .slider::-webkit-scrollbar{
   display: none;
