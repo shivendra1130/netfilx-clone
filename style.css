@@ -188,3 +188,49 @@ font-weight: bold;
 
 
 }
+.morereason{
+box-sizing: border-box;
+color :rgb(255, 255, 255);
+display:block;
+font-family:"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+font-size :18px; 
+font-weight:500;
+height:23.2px;
+
+pointer-events:auto;
+
+unicode-bidi :isolate;
+width:169.3px;
+}
+.morecontainer1{
+  display: inline-flex;
+  
+  height: 300px;
+  width: 300px;
+  color: white;
+  background-color: blue;
+}
+.morecontainer2{
+  display: inline-flex;
+  
+  height: 300px;
+  width: 300px;
+  color: white;
+  background-color: blue;
+}
+.morecontainer3{
+  display: inline-flex;
+  
+  height: 300px;
+  width: 300px;
+  color: white;
+  background-color: blue;
+}
+.morecontainer4{
+  display: inline-flex;
+  
+  height: 300px;
+  width: 300px;
+  color: white;
+  background-color: blue;
+}
